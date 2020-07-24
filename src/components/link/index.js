@@ -17,6 +17,6 @@ export const linkMixin = css`
   }
 `;
 
-export const Link = styled.a`
+export default styled.a`
   ${linkMixin}
 `;

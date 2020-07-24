@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { Box } from '../layout';
+import Box from '../box';
 import { color, fontFamily, fontSize } from '../../lib';
 
 function isHeading(type) {
@@ -19,7 +19,7 @@ const truncatedMultilineMixin = css`
   overflow: hidden;
 `;
 
-export const Text = styled(Box)`
+export default styled(Box)`
   color: ${(props) =>
     color(props.color) ||
     'inherit' ||

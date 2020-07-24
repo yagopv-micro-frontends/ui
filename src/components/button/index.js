@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { color, fontFamily } from '../../lib/theme';
-import { withSpacingProps } from '../../lib/utils';
+import { color, fontFamily } from '../../lib';
+import { withSpacingProps } from '../../lib';
 
 export default styled.button`
   font-family: ${fontFamily('secondary')};

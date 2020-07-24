@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { color, fontFamily } from '../../lib';
 import { linkMixin } from '../link';
 
-export const MarkdownPreview = styled.div`
+export default styled.div`
   color: ${color('medium')}
   margin: 1rem 0;
   overflow: hidden;
